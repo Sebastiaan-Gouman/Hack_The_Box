@@ -1,13 +1,20 @@
 ## Meow
 
 Start the vpn with typing `sudo openvpn 'filename.ovpn'` in the command line
-For some reason it needs sudo to work
-Hit Spawn Machine in HTB
+
+For some reason it needs sudo to work Hit Spawn Machine in HTB
+
 Open new terminal and ping IP to see if it works
 
 Scan ports with nmap: `sudo nmap -sV {target_IP}`
+
 Use service detection flag `-sV` to determine the name and description of the identified services.
 
+## Screenshots
+
+![pwnd Meow.png](..%2Fmedia%2Fpwnd%20Meow.png)
+
+## Quiz Questions
 
 What does the acronym VM stand for? 
 - Virtual Machine

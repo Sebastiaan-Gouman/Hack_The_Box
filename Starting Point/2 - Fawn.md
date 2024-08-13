@@ -1,3 +1,5 @@
+## Fawn
+
 Ping host to check if reachable: `ping 10.129.61.254`
 
 Run nmap to detect ports: `sudo nmap 10.129.61.254`
@@ -6,7 +8,7 @@ Run nmap with version info: `sudo nmap -sV 10.129.61.254`
 
 ```
 PORT   		STATE 	SERVICE 	VERSION
-21/tcp 		open  	ftp     vsftpd 3.0.3
+21/tcp 		open  	ftp             vsftpd 3.0.3
 Service Info: OS: Unix
 ```
 
@@ -48,6 +50,11 @@ cat flag.txt
 035db21c881520061c53e0536e44f815 
 ```
 
+## Screenshots
+
+![pwnd Fawn.png](..%2Fmedia%2Fpwnd%20Fawn.png)
+
+## Quiz Questions
 
 What does the 3-letter acronym FTP stand for? 
 - File Transfer protocol
